@@ -22,16 +22,16 @@
 
 | № | Слово | Пояснення |
 | :--- | :--- | :--- |
-| 1 | **Virtual Machine (VM)** | Віртуальна машина, програмна емуляція фізичного комп'ютера |  
-| 2 | **Hypervisor / Virtual Machine Monitor** | Гіпервізор, монітор віртуальних машин. Ці терміни часто використовуються як взаємозамінні (interchangeably) |
-| 3 | **Type 1 Hypervisor** | Гіпервізор 1-го типу, не має під собою базової ОС і виконує всі функції самостійно | 
-| 4 | **Type 2 Hypervisor** | Гіпервізор 2-го типу, використовує хостову операційну систему для створення процесів та зберігання файлів |
-| 5 | **Host Operating System** | Хостова (основна) ОС, операційне середовище, у якому працює гіпервізор 2-го типу |  
-| 6 | **Guest Operating System** | Гостьова ОС, операційна система, встановлена всередині віртуальної машини |  
-| 7 | **Interpreter** | Інтерпретатор, програма, що виконує код (наприклад, JVM) у захищеному середовищі |  
-| 8 | **Performance** | Продуктивність/швидкість роботи, критичний показник при використанні бінарної трансляції або симуляторів машин | 
-| 9 | **Booted** | Завантажений, процес запуску операційної системи на віртуальному чи реальному обладнанні |  
-| 10 | **Shipped over** | Переданий/доставлений, наприклад, передача коду JVM через Інтернет для виконання на будь-якому комп'ютері з інтерпретатором |  
+| 1 | **Virtual Machine (VM)** | Віртуальна машина, програмна емуляція фізичного комп'ютера. |  
+| 2 | **Hypervisor / Virtual Machine Monitor** | Гіпервізор, монітор віртуальних машин. Ці терміни часто використовуються як взаємозамінні (interchangeably). |
+| 3 | **Type 1 Hypervisor** | Гіпервізор 1-го типу, не має під собою базової ОС і виконує всі функції самостійно. | 
+| 4 | **Type 2 Hypervisor** | Гіпервізор 2-го типу, використовує хостову операційну систему для створення процесів та зберігання файлів. |
+| 5 | **Host Operating System** | Хостова (основна) ОС, операційне середовище, у якому працює гіпервізор 2-го типу. |  
+| 6 | **Guest Operating System** | Гостьова ОС, операційна система, встановлена всередині віртуальної машини. |  
+| 7 | **Interpreter** | Інтерпретатор, програма, що виконує код (наприклад, JVM) у захищеному середовищі. |  
+| 8 | **Performance** | Продуктивність/швидкість роботи, критичний показник при використанні бінарної трансляції або симуляторів машин. | 
+| 9 | **Booted** | Завантажений, процес запуску операційної системи на віртуальному чи реальному обладнанні. |  
+| 10 | **Shipped over** | Переданий/доставлений, наприклад, передача коду JVM через Інтернет для виконання на будь-якому комп'ютері з інтерпретатором. |  
 
 <br>**<span>2. Прочитавши матеріал з коротких теоретичних відомостей дайте відповіді на наступні питання:</span>**
 
@@ -191,6 +191,8 @@ Embedded Linux використовується для пристроїв спе
 
 ## Conclusions 
 
-&nbsp;&nbsp;&nbsp;During this laboratory work, I familiarized myself with the concept of virtualization and the principles of hypervisor operation. Specifically, I explored the differences between Type 1 (Bare Metal) and Type 2 (Hosted) hypervisors. Using VirtualBox as an example, I studied the process of deploying virtual machines, which allows running multiple isolated operating systems on a single physical computer for software testing and development.  
-&nbsp;&nbsp;&nbsp;I also delved into studying the features of the Linux OS, its distributions, and desktop environments. For my specific assignment, I examined the characteristics of the Xfce and Fvwm environments, which demonstrate the flexibility of Linux regarding resource consumption and interface customization. Particular attention was paid to the philosophy of Free Software (GNU GPL) and the advantages of open-source code.  
-&nbsp;&nbsp;&nbsp;The knowledge gained allows for a better understanding of modern operating system architecture and system administration principles. These skills will enable the effective use of virtualization tools in future academic and professional activities.
+During this laboratory work, I familiarized myself with the concept of virtualization and the principles of hypervisor operation. Specifically, I explored the differences between Type 1 (Bare Metal) and Type 2 (Hosted) hypervisors. Using VirtualBox as an example, I studied the process of deploying virtual machines, which allows running multiple isolated operating systems on a single physical computer for software testing and development.
+
+I also delved into studying the features of the Linux OS, its distributions, and desktop environments. For my specific assignment, I examined the characteristics of the Xfce and Fvwm environments, which demonstrate the flexibility of Linux regarding resource consumption and interface customization. Particular attention was paid to the philosophy of Free Software (GNU GPL) and the advantages of open-source code.  
+
+The knowledge gained allows for a better understanding of modern operating system architecture and system administration principles. These skills will enable the effective use of virtualization tools in future academic and professional activities.
