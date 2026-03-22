@@ -140,105 +140,105 @@
 
 #### Визначення поточного робочого каталогу
 
-![01_pwd](screens/01_pwd.png)
+![01_pwd](screens_/01_pwd.png)
 
 #### Перехід до кореневого каталогу та визначення місцезнаходження
 
-![02_cd_root](screens/02_cd_root.png)
+![02_cd_root](screens_/02_cd_root.png)
 
 #### Перегляд вмісту поточного каталогу у довгому форматі
 
-![03_ls_l](screens/03_ls_l.png)
+![03_ls_l](screens_/03_ls_l.png)
 
 #### Перехід до /usr/share та визначення поточної директорії
 
-![04_cd_usr_share](screens/04_cd_usr_share.png)
+![04_cd_usr_share](screens_/04_cd_usr_share.png)
 
 #### Перегляд вмісту з прихованими файлами
 
-![05_ls_a](screens/05_ls_a.png)
+![05_ls_a](screens_/05_ls_a.png)
 
 #### Перехід до /etc
 
-![06_cd_etc](screens/06_cd_etc.png)
+![06_cd_etc](screens_/06_cd_etc.png)
 
 #### Файли /etc, що починаються з літери «d» (ім'я Дмитро)
 
-![07_ls_d_star](screens/07_ls_d_star.png)
+![07_ls_d_star](screens_/07_ls_d_star.png)
 
 #### Файли /etc з іменами рівно з 6 символів
 
-![08_ls_6chars](screens/08_ls_6chars.png)
+![08_ls_6chars](screens_/08_ls_6chars.png)
 
 #### Файли /etc, що закінчуються на літеру «d»
 
-![09_ls_end_d](screens/09_ls_end_d.png)
+![09_ls_end_d](screens_/09_ls_end_d.png)
 
 #### Домашній каталог — вміст у зворотному алфавітному порядку через конвеєр
 
-![10_ls_sort_r](screens/10_ls_sort_r.png)
+![10_ls_sort_r](screens_/10_ls_sort_r.png)
 
 #### Створення директорії з назвою групи
 
-![11_mkdir_group](screens/11_mkdir_group.png)
+![11_mkdir_group](screens_/11_mkdir_group.png)
 
 #### Перегляд домашнього каталогу з ключем -r
 
-![12_ls_r](screens/12_ls_r.png)
+![12_ls_r](screens_/12_ls_r.png)
 
 > Ключ `-r` виводить список файлів і каталогів у зворотному алфавітному порядку (від Z до A).
 
 #### Перехід у директорію RPZ-33 та створення файлу lab5
 
-![13_touch_lab5](screens/13_touch_lab5.png)
+![13_touch_lab5](screens_/13_touch_lab5.png)
 
 #### Створення трьох підкаталогів з прізвищами студентів (одна команда)
 
-![14_mkdir_surnames](screens/14_mkdir_surnames.png)
+![14_mkdir_surnames](screens_/14_mkdir_surnames.png)
 
 #### Перехід у перший підкаталог та створення файлу з іменем студента
 
-![15_touch_name1](screens/15_touch_name1.png)
+![15_touch_name1](screens_/15_touch_name1.png)
 
 #### Запис інформації у файл командою echo
 
-![16_echo_write](screens/16_echo_write.png)
+![16_echo_write](screens_/16_echo_write.png)
 
 #### Перегляд вмісту файлу Dmytro
 
-![17_cat_name1](screens/17_cat_name1.png)
+![17_cat_name1](screens_/17_cat_name1.png)
 
 #### Копіювання Dmytro → Oleksiy та перегляд каталогу
 
-![18_cp_name2](screens/18_cp_name2.png)
+![18_cp_name2](screens_/18_cp_name2.png)
 
 #### Перегляд скопійованого файлу (містить дані першого студента)
 
-![19_cat_name2_copy](screens/19_cat_name2_copy.png)
+![19_cat_name2_copy](screens_/19_cat_name2_copy.png)
 
 #### Оновлення вмісту файлу Oleksiy та перевірка
 
-![20_update_name2](screens/20_update_name2.png)
+![20_update_name2](screens_/20_update_name2.png)
 
 #### Переміщення файлу Oleksiy у директорію Kovalenko
 
-![21_mv_name2](screens/21_mv_name2.png)
+![21_mv_name2](screens_/21_mv_name2.png)
 
 #### Копіювання Dmytro → Andriy та переміщення у Shevchenko
 
-![22_cp_mv_name3](screens/22_cp_mv_name3.png)
+![22_cp_mv_name3](screens_/22_cp_mv_name3.png)
 
 #### Перехід у директорію Shevchenko, перевірка та оновлення файлу Andriy
 
-![23_update_name3](screens/23_update_name3.png)
+![23_update_name3](screens_/23_update_name3.png)
 
 #### Повернення до домашнього каталогу
 
-![24_cd_home](screens/24_cd_home.png)
+![24_cd_home](screens_/24_cd_home.png)
 
 #### Рекурсивний перегляд вмісту каталогу RPZ-33 з кольоровим виводом
 
-![25_ls_recursive](screens/25_ls_recursive.png)
+![25_ls_recursive](screens_/25_ls_recursive.png)
 
 ---
 
@@ -260,7 +260,7 @@
 
 ### 1. Два способи відобразити шлях до домашнього каталогу командою echo
 
-![26_echo_home](screens/26_echo_home.png)
+![26_echo_home](screens_/26_echo_home.png)
 
 Перший спосіб використовує механізм розширення тильди оболонкою ще до виконання команди. Другий звертається до системної змінної середовища `$HOME`, яка зберігає абсолютний шлях до домашнього каталогу поточного користувача.
 
@@ -270,7 +270,7 @@
 
 Так, перегляд можливий — команда `ls` приймає будь-який шлях як аргумент:
 
-![27_ls_root_from_home](screens/27_ls_root_from_home.png)
+![27_ls_root_from_home](screens_/27_ls_root_from_home.png)
 
 Поточний робочий каталог залишився незмінним — `/home/sysadmin`.
 
@@ -278,13 +278,13 @@
 
 ### 3. Додавання тексту до порожнього файлу в терміналі
 
-![28_write_to_file](screens/28_write_to_file.png)
+![28_write_to_file](screens_/28_write_to_file.png)
 
 ---
 
 ### 4. Копіювання та видалення каталогу — порожнього і непорожнього
 
-![29_cp_rm_dirs](screens/29_cp_rm_dirs.png)
+![29_cp_rm_dirs](screens_/29_cp_rm_dirs.png)
 
 Команда `rmdir` спрацює лише для **порожньої** директорії — для непорожньої вона поверне помилку. У таких випадках необхідно використовувати `rm -r`.
 
