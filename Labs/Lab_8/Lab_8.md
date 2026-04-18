@@ -228,7 +228,27 @@
 
 Команда `dig` (Domain Information Groper) — гнучкий і потужний інструмент для запитів до DNS-серверів. Системні адміністратори використовують її для перевірки DNS-конфігурацій, визначення IP-адреси за доменним іменем, зворотного перетворення IP на ім'я, а також для діагностики мережевих проблем.
 
+> Базовий запит для визначення IP-адреси популярного ресурсу:
 
+<img width="751" height="403" alt="image" src="https://github.com/user-attachments/assets/3bce6ad0-7919-450d-96b9-e72c55014712" />
+
+<br>
+
+> Виведення лише короткої інформації (тільки самої IP-адреси):
+
+<img width="754" height="27" alt="image" src="https://github.com/user-attachments/assets/eb7ec2d4-3d4f-4ee1-a561-1e829801dcaf" />
+
+<br>
+
+> Зворотний пошук (Reverse DNS) - дізнаємося домен за відомою IP-адресою:
+
+<img width="756" height="398" alt="image" src="https://github.com/user-attachments/assets/5267d82f-a7de-425e-a698-c48641600a24" />
+
+<br>
+
+> Запит специфічного типу DNS-запису (наприклад, NS - сервери імен домену):
+
+<img width="753" height="400" alt="image" src="https://github.com/user-attachments/assets/d0eda7bf-873f-4b55-bb3c-8048da473b7d" />
 
 ---
 
@@ -236,9 +256,27 @@
 
 Команда `netstat` (Network Statistics) — класична утиліта для детальної діагностики мережевої підсистеми. Вона дозволяє переглядати активні TCP/UDP-з'єднання, порти у стані прослуховування, таблицю маршрутизації та статистику інтерфейсів.
 
-> *Примітка: у сучасних дистрибутивах `netstat` вважається застарілою і поступово замінюється командами `ss` та `ip`, однак її знання залишається обов'язковим.*
+> Перегляд усіх активних TCP та UDP портів, що знаходяться в режимі прослуховування (Listening). Використовуємо -n для відображення IP замість імен:
 
+<img width="754" height="372" alt="image" src="https://github.com/user-attachments/assets/9e91caf9-d5c7-4d90-a185-fa04cbe5bbb4" />
 
+<br>
+
+> Перегляд таблиці маршрутизації (аналог команди route) у числовому форматі:
+
+<img width="759" height="123" alt="image" src="https://github.com/user-attachments/assets/978a2edc-473c-4361-9b09-df4e525eaf96" />
+
+<br>
+
+> Виведення статистики по всім мережевим інтерфейсам (помилки, пакети):
+
+<img width="769" height="126" alt="image" src="https://github.com/user-attachments/assets/06551e60-e9ea-456c-82b2-d36d7e1b18f7" />
+
+<br>
+
+> Перегляд усіх встановлених TCP-з'єднань:
+
+<img width="756" height="77" alt="image" src="https://github.com/user-attachments/assets/45f54181-97f9-4332-9fda-c7d15d03a102" />
 
 ---
 
